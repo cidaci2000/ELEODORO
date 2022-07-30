@@ -1,0 +1,48 @@
+body{
+    font-size: 100%;
+    background: linear-gradient(to right, #82bb40 0%, #2c39aa 100%);
+    
+}
+.escola{
+    display: flex;
+    flex-direction: row;
+    font-family: "Noto Sans script=latin rev=3";
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: initial;
+    font-size: 32px;
+    color: blanchedalmond;
+}
+.colegio{font-family: "Noto Sans script=latin rev=3";
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: initial;
+    font-size: 25px;
+    color: blanchedalmond;
+    display: flex;
+    flex-direction: column;
+
+}
+.cabecalho {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: right;
+        padding: 18px;
+        font-family: "Noto Sans script=latin rev=3";
+        font-weight: 400;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: initial;
+        font-size: 28px;
+        
+}
+.imagem{
+    display: block;
+    margin: 0 auto;
+}
+.rodape{
+    margin-left: 450px;
+    color: rgb(39, 1, 1);
+}
