@@ -1,29 +1,35 @@
 body{
     font-size: 100%;
-    background: linear-gradient(to right, #82bb40 0%, #2c39aa 100%);
-    
+    background: linear-gradient(to right, #82bb40 0%, #273bf3 100%);
+    margin-block-end: auto;
 }
 .escola{
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-items: center;
     font-family: "Noto Sans script=latin rev=3";
     font-weight: 400;
     font-style: normal;
     font-stretch: normal;
     line-height: initial;
-    font-size: 32px;
-    color: blanchedalmond;
-}
+    font-size: 40px;
+    color: rgb(3, 1, 77);    
+   
+    }
+
+    
+
 .colegio{font-family: "Noto Sans script=latin rev=3";
     font-weight: 400;
     font-style: normal;
     font-stretch: normal;
     line-height: initial;
     font-size: 25px;
-    color: blanchedalmond;
+    color: rgb(16, 16, 17);
     display: flex;
     flex-direction: column;
-
+    
 }
 .cabecalho {
         display: flex;
@@ -31,11 +37,13 @@ body{
         justify-content: right;
         padding: 18px;
         font-family: "Noto Sans script=latin rev=3";
-        font-weight: 400;
+        font-weight: 700;
         font-style: normal;
         font-stretch: normal;
         line-height: initial;
         font-size: 28px;
+        border-top: 0.4px solid cornflowerblue;
+        border-bottom: 0.4px solid cornflowerblue;;
         
 }
 .imagem{
@@ -45,4 +53,14 @@ body{
 .rodape{
     margin-left: 450px;
     color: rgb(39, 1, 1);
+    }
+.item-botao:hover{ 
+    background-color: rgb(2, 2, 58); 
+    border-radius: 20px;
+    margin: 5px;  
+    
+}
+#botao{
+    margin-bottom: 40px;
+    justify-content: space-around;
 }
